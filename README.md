@@ -1,2 +1,2 @@
 # Bitcoin
-Bitcoin projects with python for now...
+Bitcoin price with import requests library and API.
