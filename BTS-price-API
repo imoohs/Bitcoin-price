@@ -1,0 +1,7 @@
+import requests
+
+
+response = requests.get("https://api.coinbase.com/v2/prices/buy?currency=USD")
+
+print ("BTC on USD for now :",
+float(response.json()['data']['amount']))
